@@ -1,0 +1,21 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  background-image: url("/images/backgrounds/wrapper.jpg");
+  height: 98vh;
+  background-size: cover;
+}
+.wrap-content img {
+  width: 5vw;
+}
+.wrap-content p {
+  color: white;
+  font-size: 3vw;
+}
+.wrap-content .w-caption {
+  font-size: 1.1vw;
+}
