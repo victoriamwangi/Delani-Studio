@@ -11,10 +11,15 @@
     justify-content: space-between;
 }
 
+.bold {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
 .wrapper {
     background-image: url("/images/backgrounds/wrapper.jpg");
     height: 98vh;
-    background-size: cover;
+    background-size: contain;
 }
 
 .wrap-content img {
@@ -37,7 +42,7 @@
 .services {
     background-image: url("/images/backgrounds/s_image.jpg");
     height: 50vh;
-    background-size: cover;
+    background-size: contain;
 }
 
 .services p {
@@ -50,7 +55,6 @@
 
 .what-we-do {
     padding: 1.4vw 1vw;
-    /* margin-bottom: 5vw; */
 }
 
 .what-we-do .row {
@@ -89,4 +93,27 @@
 
 .portfolio img {
     width: 95%;
+}
+
+.contact-us {
+    height: 70vh;
+    background-image: url("/images/backgrounds/c_image.jpg");
+    background-size: contain;
+}
+
+.form,
+input {
+    background: transparent !important;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 1.1vw;
+}
+
+.grp1 input {
+    width: 28vw;
+    color: white;
+}
+
+#message {
+    height: 15vw;
 }
