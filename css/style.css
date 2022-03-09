@@ -80,3 +80,13 @@
     font-size: 1.1vw;
     height: 5vw;
 }
+
+.portfolio .row {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4vw;
+}
+
+.portfolio img {
+    width: 95%;
+}
