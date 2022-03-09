@@ -1,35 +1,63 @@
 .display {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.display-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .wrapper {
-  background-image: url("/images/backgrounds/wrapper.jpg");
-  height: 98vh;
-  background-size: cover;
+    background-image: url("/images/backgrounds/wrapper.jpg");
+    height: 98vh;
+    background-size: cover;
 }
+
 .wrap-content img {
-  width: 5vw;
+    width: 5vw;
 }
+
 .wrap-content p {
-  color: white;
-  font-size: 3vw;
+    color: white;
+    font-size: 3vw;
 }
+
 .wrap-content .w-caption {
-  font-size: 1.1vw;
+    font-size: 1.1vw;
 }
+
 .about .a-title {
-  font-size: 2vw;
+    font-size: 2vw;
 }
+
 .services {
-  background-image: url("/images/backgrounds/s_image.jpg");
-  height: 50vh;
-  background-size: cover;
+    background-image: url("/images/backgrounds/s_image.jpg");
+    height: 50vh;
+    background-size: cover;
 }
+
 .services p {
-  font-size: 1.3vw;
+    font-size: 1.3vw;
 }
+
 .services .bold {
-  font-size: 2.2vw;
+    font-size: 2.2vw;
+}
+
+.what-we-do .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 5vw;
+}
+
+.card img {
+    width: 20vw;
+    height: 25vw;
+    object-fit: fill;
 }
