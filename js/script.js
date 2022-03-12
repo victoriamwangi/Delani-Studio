@@ -39,6 +39,10 @@ $(document).ready(function() {
         }
     });
 
+
+
+
+
 });
 
 
@@ -79,7 +83,7 @@ $(document).ready(function() {
 //         if (curPage.length) {
 //             $("." + curPage).hide("all");
 //         }
-//         curPage = $(this).data("page");
+//         curPage =(this).data("page");
 //         $("." + curPage).show();
 //     });
 // });

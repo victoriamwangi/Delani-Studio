@@ -106,12 +106,25 @@
 }
 
 .portfolio .infor {
-    width: 15%;
+    width: 70%;
     position: absolute;
-    height: 13vw;
-    border: solid red 4px;
-    margin-top: 0.6vw;
+    height: 80%;
+    margin-left: 9%;
+    margin-top: 7%;
+    border: solid white 6px;
     z-index: 999 !important;
+    display: none;
+}
+
+
+/* .portfolio img {
+    opacity: 0.5;
+} */
+
+.infor p {
+    color: white;
+    font-weight: 900;
+    font-size: 1.4vw;
 }
 
 .infor img {
