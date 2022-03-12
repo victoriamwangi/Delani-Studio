@@ -41,31 +41,40 @@
         <div class="row ">
             <div class="col-lg-4 ">
                 <div class="card display">
-                    <img class="card-img-top " src="/images/services_icons/dev_icon.png " alt=" ">
+                    <img id="" class="card-img-top s-icon" src="/images/services_icons/dev_icon.png " alt=" ">
                     <div class="card-body text-center">
                         <h4 class="card-title ">Design</h4>
-                        <p class="card-text ">Our design practice offers a full range of services</br>including brand strategy, interaction and visual design</br>and user experience testing </p>
-                        <p>Throughout your project, our desginers create and</br>implement visual design and workflows, solicit user feedback</br>and work with you to make sure what gets built</br>is what is needed.</p>
+                        <div class="card-text " data-page="moreInfor">
+                            <p>Our design practice offers a full range of services</br>including brand strategy, interaction and visual design</br>and user experience testing </p>
+                            <p>Throughout your project, our desginers create and</br>implement visual design and workflows, solicit user feedback</br>and work with you to make sure what gets built</br>is what is needed.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
                 <div class="card display">
-                    <img class="card-img-top " src="/images/services_icons/dev_icon.png " alt=" ">
+                    <img id="" class="card-img-top s-icon" src="/images/services_icons/dev_icon.png " alt=" ">
                     <div class="card-body text-center">
                         <h4 class="card-title ">Development</h4>
-                        <p class="card-text ">All engineers are fluent in the latest enterprise, mobile</br>and web development technologies</p>
-                        <p>They collaborate with your team to write and improve</br>on a daily basis, using proven practices such as</br>test-driven development and pair programming</p>
+                        <div class="card-text" data-page="moreInfor">
+                            <p>All engineers are fluent in the latest enterprise, mobile</br>and web development technologies</p>
+                            <p>They collaborate with your team to write and improve</br>on a daily basis, using proven practices such as</br>test-driven development and pair programming</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
                 <div class="card display ">
-                    <img class="card-img-top " src="/images/services_icons/product_icon.png " alt=" ">
+                    <img id="" class="card-img-top s-icon" src="/images/services_icons/product_icon.png " alt=" ">
                     <div class="card-body  text-center">
                         <h4 class="card-title ">Product Management</h4>
-                        <p class="card-text ">Planning and development is iterative.Because we are</br>constantly coding and testing the products we build are</br>always ready to go live. </p>
-                        <p>This iterative process allows for changes as business</br>requirements evolve</p>
+                        <div class="card-text">
+                            <p>Planning and development is iterative.Because we are</br>constantly coding and testing the products we build are</br>always ready to go live. </p>
+                            <p>This iterative process allows for changes as business</br>requirements evolve</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -73,12 +82,14 @@
 
 
     </div>
-    <div class="portfolio">
+    <div class="portfolio display">
+        <p class="bold">PORTFOLIO</p>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 back-img">
                 <img src="/images/portfolio/work4.jpg" alt="">
-                <div class="container infor"></div>
+
             </div>
+
             <div class="col-lg-3">
                 <img src="/images/portfolio/work3.jpg" alt="">
             </div>
@@ -90,6 +101,10 @@
                 <img src="/images/portfolio/work1.jpg" alt="">
 
             </div>
+            <div class="container infor col-lg-3"> </div>
+            <div class="container infor col-lg-3"> </div>
+            <div class="container infor col-lg-3"> </div>
+            <div class="container infor col-lg-3"> </div>
         </div>
         <div class="row">
 
@@ -126,7 +141,48 @@
             <div class="form-group">
                 <input type="text" name="message" id="message" class="form-control" placeholder="Your message here..." aria-describedby="helpId">
             </div>
+            <div class="btn submit">SEND MESSAGE</div>
         </form>
+        <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social display">
+        <div class="icons">
+            <img src="/images/social_icons/twitter.png" alt="">
+            <img src="/images/social_icons/dribble.png" alt="">
+            <img src="/images/social_icons/facebook.png" alt="">
+            <img src="/images/social_icons/g_plus.png" alt="">
+            <img src="/images/social_icons/skype.png" alt="">
+            <img src="/images/social_icons/stumble_upon.png" alt="">
+            <img src="/images/social_icons/behance.png" alt="">
+            <img src="/images/social_icons/pinterest.png" alt="">
+            <img src="/images/social_icons/flickr.png" alt="">
+        </div>
+        <p>Dilian Studio</p>
+        <p>2019</p>
+
+
     </div>
 
     <script src="js/jquery.min.js "></script>

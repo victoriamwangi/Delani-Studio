@@ -19,7 +19,8 @@
 .wrapper {
     background-image: url("/images/backgrounds/wrapper.jpg");
     height: 98vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrap-content img {
@@ -42,7 +43,8 @@
 .services {
     background-image: url("/images/backgrounds/s_image.jpg");
     height: 50vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .services p {
@@ -75,9 +77,13 @@
 }
 
 .card img {
-    width: 6vw;
-    height: 8vw;
+    width: 10vw;
+    height: 14vw;
     object-fit: fill;
+}
+
+.card-text {
+    display: none;
 }
 
 .card-body p {
@@ -95,10 +101,28 @@
     width: 95%;
 }
 
+.back-img {
+    position: relative;
+}
+
+.portfolio .infor {
+    width: 15%;
+    position: absolute;
+    height: 13vw;
+    border: solid red 4px;
+    margin-top: 0.6vw;
+    z-index: 999 !important;
+}
+
+.infor img {
+    width: 120% !important;
+}
+
 .contact-us {
     height: 70vh;
     background-image: url("/images/backgrounds/c_image.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .form,
@@ -116,4 +140,24 @@ input {
 
 #message {
     height: 15vw;
+    color: white !important;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 2vw;
+    background-color: #de984b;
+    height: 3vw;
+    color: white;
+    font-weight: bold;
+}
+
+.social .icons {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 3vw;
+}
+
+.social .icons img {
+    padding-left: 1.5vw;
 }
