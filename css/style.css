@@ -152,6 +152,15 @@ input {
     font-weight: bold;
 }
 
+.exampleModal {
+    display: none;
+}
+
+.fa-circle-check {
+    color: green;
+    font-size: 2vw;
+}
+
 .social .icons {
     width: 50vw;
     margin: 0 auto;

@@ -5,6 +5,19 @@ $(document).ready(function() {
         $(".s-icon").hide();
     });
 
+    $('.submit').click(function() {
+        var userName = $('#username').val();
+        var email = $('#email').val();
+        var message = $('#message').val();
+        $('#exampleModal').show();
+        if (userName == "" || email == "" || message == "") {
+            $('.popmsg').text("Kindly fill in all the fields");
+        } else {
+            $('.popmsg').text(userName + " we have received your message. Thank you for reaching out!");
+
+        }
+    });
+
 });
 
 
