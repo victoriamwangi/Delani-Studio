@@ -234,7 +234,7 @@ input {
         padding: 4vw;
     }
     .card {
-        margin: 2vw;
+        margin: 3vw;
     }
     .card img {
         width: 20vw;
@@ -250,7 +250,7 @@ input {
     .portfolio .row {
         width: 70%;
         margin: 0 auto;
-        margin-bottom: 6vw;
+        margin-bottom: 2vw;
     }
     .portfolio .bold {
         margin-top: 4vw;
@@ -259,6 +259,28 @@ input {
     .portfolio img {
         width: 95%;
         margin-bottom: 6vw;
+    }
+    #infors1,
+    #infors2,
+    #infors3,
+    #infors4,
+    #infors5,
+    #infors6,
+    #infors7,
+    #infors8 {
+        width: 70%;
+        position: absolute;
+        height: 70%;
+        margin-left: 9%;
+        margin-top: 7%;
+        border: solid white 6px;
+        z-index: 999 !important;
+        display: none;
+    }
+    .infor p {
+        color: white;
+        font-weight: 900;
+        font-size: 4vw;
     }
     .contact-us {
         justify-content: normal;
