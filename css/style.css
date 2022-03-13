@@ -94,7 +94,11 @@
 .portfolio .row {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
+}
+
+.portfolio .bold {
+    margin: 3vw;
 }
 
 .portfolio img {
@@ -117,7 +121,6 @@
     position: absolute;
     height: 80%;
     margin-left: 9%;
-    margin-top: 7%;
     border: solid white 6px;
     z-index: 999 !important;
     display: none;
@@ -156,6 +159,10 @@ input {
 .grp1 input {
     width: 28vw;
     color: white;
+}
+
+::placeholder {
+    color: white !important;
 }
 
 #message {

@@ -25,6 +25,7 @@ $(document).ready(function() {
         $(".txt3").hide();
     });
     $('.submit').click(function() {
+
         var userName = $('#username').val();
         var email = $('#email').val();
         var message = $('#message').val();
