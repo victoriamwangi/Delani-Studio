@@ -17,7 +17,7 @@
 }
 
 .wrapper {
-    background-image: url("/images/backgrounds/wrapper.jpg");
+    background-image: url("../images/backgrounds/wrapper.jpg");
     height: 98vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 }
 
 .services {
-    background-image: url("/images/backgrounds/s_image.jpg");
+    background-image: url("../images/backgrounds/s_image.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@
 
 .contact-us {
     height: 70vh;
-    background-image: url("/images/backgrounds/c_image.jpg");
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -261,7 +261,7 @@ input {
     }
     .portfolio .bold {
         margin-top: 4vw;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .portfolio img {
         width: 95%;
@@ -296,6 +296,9 @@ input {
     input {
         width: 90%;
         height: 10vw;
+    }
+    .contact-us {
+        height: 55vh;
     }
     .contact-us .bold {
         font-size: 4vw;
