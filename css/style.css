@@ -223,4 +223,10 @@ input {
     .about .a-title {
         font-size: 4vw;
     }
+    .services p {
+        font-size: 3vw;
+    }
+    .services .bold {
+        font-size: 3.7vw;
+    }
 }
