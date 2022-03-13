@@ -229,4 +229,35 @@ input {
     .services .bold {
         font-size: 3.7vw;
     }
+    .what-we-do .bold {
+        font-size: 4vw;
+        padding: 4vw;
+    }
+    .card {
+        margin: 2vw;
+    }
+    .card img {
+        width: 20vw;
+    }
+    .card-text {
+        display: none;
+    }
+    .card-body p {
+        font-size: 3vw;
+        height: 8vw;
+        padding: 4vw;
+    }
+    .portfolio .row {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 6vw;
+    }
+    .portfolio .bold {
+        margin-top: 4vw;
+        font-size: 4vw;
+    }
+    .portfolio img {
+        width: 95%;
+        margin-bottom: 6vw;
+    }
 }
