@@ -18,7 +18,7 @@
 This is a landing page of a Delani studio that has information on the services they offer and projects they have worked on. 
 It also has a contact form that allows the user to send a message to Delani Studio.
 ## Demo
-Here is a working live demo: https://victoriamwangi.github.io/Akan-Naming-System/
+Here is a working live demo: https://victoriamwangi.github.io/Delani-Studio/
 ## Installation
 
 To clone this repo run: git clone https://github.com/victoriamwangi/Delani-Studio.git
@@ -34,7 +34,7 @@ To clone this repo run: git clone https://github.com/victoriamwangi/Delani-Studi
 
 - HTML - which was used to build the structure of the pages.
 - CSS - which was used to style the entire page.
-- JS - used form validation, add interactivity such as clicking to view more information on elements and hover to show project names.
+- jQuery - used form validation, add interactivity such as clicking to view more information on elements and hover to show project names.
 - Boostrap 4 - to enable fast styling of the web pages and add responsiveness.
 
 ## Authors Info
