@@ -31,7 +31,7 @@ $(document).ready(function() {
         $('#exampleModal').show();
         if (userName == "" || email == "" || message == "") {
             $(".fa-rectangle-xmark").show();
-            $('.popmsg').text("Kindly fill in all the fields");
+            $('.popmsg').text("Kindly fill in all the fields").css('color', 'red');
         } else {
             $('.fa-circle-check').show();
             $('.popmsg').text(userName + " we have received your message. Thank you for reaching out!");
@@ -41,6 +41,7 @@ $(document).ready(function() {
     $("#back-img1").hover(
         function() {
             $("#infors1").show();
+
         },
         function() {
             $("#infors1").hide();
