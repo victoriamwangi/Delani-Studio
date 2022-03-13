@@ -105,7 +105,14 @@
     position: relative;
 }
 
-.portfolio .infor {
+#infors1,
+#infors2,
+#infors3,
+#infors4,
+#infors5,
+#infors6,
+#infors7,
+#infors8 {
     width: 70%;
     position: absolute;
     height: 80%;
@@ -115,11 +122,6 @@
     z-index: 999 !important;
     display: none;
 }
-
-
-/* .portfolio img {
-    opacity: 0.5;
-} */
 
 .infor p {
     color: white;

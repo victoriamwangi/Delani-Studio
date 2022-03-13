@@ -38,18 +38,75 @@ $(document).ready(function() {
 
         }
     });
-
-    $(".back-img").hover(
+    $("#back-img1").hover(
         function() {
-            $('.infor').show();
-
+            $("#infors1").show();
         },
         function() {
-            $('.infor').hide();
+            $("#infors1").hide();
+        }
+    );
+    $("#back-img2").hover(
+        function() {
+            $("#infors2").show();
+        },
+        function() {
+            $("#infors2").hide();
         }
     );
 
+    $("#back-img3").hover(
+        function() {
+            $("#infors3").show();
+        },
+        function() {
+            $("#infors3").hide();
+        }
+    );
 
+    $("#back-img4").hover(
+        function() {
+            $("#infors4").show();
+        },
+        function() {
+            $("#infors4").hide();
+        }
+    );
+    $("#back-img5").hover(
+        function() {
+            $("#infors5").show();
+        },
+        function() {
+            $("#infors5").hide();
+        }
+    );
+
+    $("#back-img6").hover(
+        function() {
+            $("#infors6").show();
+        },
+        function() {
+            $("#infors6").hide();
+        }
+    );
+
+    $("#back-img7").hover(
+        function() {
+            $("#infors7").show();
+        },
+        function() {
+            $("#infors7").hide();
+        }
+    );
+
+    $("#back-img8").hover(
+        function() {
+            $("#infors8").show();
+        },
+        function() {
+            $("#infors8").hide();
+        }
+    );
 
 
 
