@@ -36,6 +36,15 @@
     font-size: 1.1vw;
 }
 
+.wrapper-btn {
+    margin-top: 5%;
+    width: 2.6vw;
+    height: 4vw;
+    border-radius: 20px;
+    align-items: center;
+    border: 1px white solid;
+}
+
 .about .a-title {
     font-size: 2vw;
 }
@@ -121,6 +130,7 @@
     position: absolute;
     height: 80%;
     margin-left: 9%;
+    margin-top: 1.6vw;
     border: solid white 6px;
     z-index: 999 !important;
     display: none;
